@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Beamer Presentation
-% Pulse Width Modulation on Firebird V
+% Motion control using Pulse Width Modulation in Firebird V
 % Author: Vibhu Mishra (e-Yantra Team)
 % Reference: www.LaTeXTemplates.com Version 1.0 (10/11/12)
 %
@@ -275,8 +275,8 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 	\frametitle{Timer/Counter 5 (TCNT5) }
 	\begin{itemize}  % Shows text in bullet point 
 		\item <+-|alert@+> The Timer/Counter is a register that increments its value after every clock cycle. 	
-		\item <+-|alert@+> The value in the timer/counter is compared with a reference value to generate PWM.
-		\item <+-|alert@+> This value depends upon the resolution of Timer.
+		\item <+-|alert@+> The value in the Timer/Counter is compared with a reference value to generate PWM.
+		\item <+-|alert@+> This value depends upon the resolution of Counter.
 		\item <+-|alert@+> For example, a 3 bit counter will have 8 values (i.e. 0-7). Its waveform will be seen as follows: 
 		\pause
 		\vfill
@@ -311,17 +311,17 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 %------------------------------------------------
 % Start of sixth slide
 \subsection{Timer/Counter Control Register (TCCR5A and TCCR5B)} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
-\begin{frame}
-\frametitle{Timer/Counter Control Register (TCCR5A and TCCR5B)}
-\begin{itemize}
-  \item <+-|alert@+> TCCR5A and TCCR5B are registers with which we can control:
-  \begin{enumerate}
-  \item <+-|alert@+> The output generated upon Compare Match of the timer.
-   \item <+-|alert@+> The type of PWM Signal to be generated.
-   \item <+-|alert@+> The Frequency of the PWM signal.
-   \end{enumerate}
-\end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Timer/Counter Control Register (TCCR5A and TCCR5B)}
+%\begin{itemize}
+%  \item <+-|alert@+> TCCR5A and TCCR5B are registers with which we can control:
+%  \begin{enumerate}
+%  \item <+-|alert@+> The output generated upon Compare Match of the timer.
+%   \item <+-|alert@+> The type of PWM Signal to be generated.
+%   \item <+-|alert@+> The Frequency of the PWM signal.
+%   \end{enumerate}
+%\end{itemize}
+%\end{frame}
 
 % Start of seventh slide
 \subsubsection{TCCR5A} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
@@ -345,9 +345,9 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 		\vspace{1pt}
 		 2 & COM5C0 & Compare Output Mode for Channel C bit 0 &  0 \\
 		\vspace{1pt} 
-		 1 & WGM11 & Waveform Generation Mode bit 1 &  0 \\
+		 1 & WGM51 & Waveform Generation Mode bit 1 &  0 \\
 		\vspace{1pt}
-		 0 & WGM10 & Waveform Generation Mode bit 0 & \color{red}  \textbf{1}\color{black} \\	
+		 0 & WGM50 & Waveform Generation Mode bit 0 & \color{red}  \textbf{1}\color{black} \\	
 		\noalign{\hrule height 1pt}		
 \end{tabular}
 		\begin{itemize}
@@ -359,28 +359,32 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 	\frametitle{Timer/Counter Control Register 5A (TCCR5A) (...contd)}
 	\begin{itemize}
 		\item <+-|alert@+> In the given table:
-		\begin{enumerate} [$\checkmark$]
-			\item <+-|alert@+> COM5A1 AND COM5A0 bits are used to control the output on left motor. 
+		\begin{itemize} [$\checkmark$]
+			\item <+-|alert@+> COM5A1 and COM5A0 bits are used to control the output on left motor. 
 			\item <+-|alert@+> COM5B1 and COM5B0 bits are used to control the output on right motor.
-		\end{enumerate}
-	\end{itemize}
-	
-\end{frame}	
-\begin{frame}
-\frametitle{TCCR5A: Compare Output Mode Bits}
-\begin{center}
-	\item <+-|alert@+>\includegraphics[height=4cm, width=10cm]{com_bits}
-\end{center}
+	\end{itemize}\pause
+	\includegraphics[height=4cm, width=10cm]{com_bits}
+\end{itemize}
 	\begin{itemize}
 		\item <+-|alert@+> We are using non-inverting mode for PWM generation.
 	\end{itemize}
+	
 \end{frame}	
+%\begin{frame}
+%\frametitle{TCCR5A: Compare Output Mode Bits}
+%\begin{center}
+%	\item <+-|alert@+>\includegraphics[height=4cm, width=10cm]{com_bits}
+%\end{center}
+%	\begin{itemize}
+%		\item <+-|alert@+> We are using non-inverting mode for PWM generation.
+%	\end{itemize}
+%\end{frame}	
 \begin{frame}
 	\frametitle{Inverting and Non-inverting mode}
 	\centering
-	\includegraphics[height = 4.5cm, width = 7cm]{pwm_output}
+	\includegraphics[height=10cm, width=10cm, keepaspectratio]{pwm_output}
 	\begin{itemize}
-		\item <+-|alert@+> There are two modes of pwm waveform generation:
+		\item <+-|alert@+> There are two modes of PWM waveform generation:
 		\item <+-|alert@+> Non-inverting mode and inverting mode 
 	\end{itemize}
 \end{frame}	
@@ -420,12 +424,15 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 		\noalign{\hrule height 0.5pt}			
 		\end{tabular}	\pause
 		\begin{itemize}
-			\item In the above Table:
-			\pause
-			\item <+-|alert@+> Input Capture Noise Canceller and Input Capture Edge Select bits are not being used here. 
-			\item <+-|alert@+>WGM bits (WGM52 and WGM53),  are used for PWM generation.
-			\item <+-|alert@+> CS52, CS51, CS50 (Clock select) bits are used to select a frequency at which timer/counter Register will increment its value. 
-		\end{itemize}
+			%\item In the above Table:
+			%\pause
+			%\item <+-|alert@+> Input Capture Noise Canceller and Input Capture Edge Select bits are not being used here. 
+			\item <+-|alert@+>WGM bits (WGM52 and WGM53),  are used for selecting mode of PWM generation.
+			 \begin{itemize} 
+			 	\item Note: WGM50 and WGM51 bits also used along with these bit are in TCCR5A register.
+			 \end{itemize}
+			\item <+-|alert@+> CS52, CS51, CS50 (Clock select) bits are used to select a frequency at which timer/counter Register will increment its value.
+			\end{itemize}
 \end{frame}
 \begin{frame}
 	\frametitle{TCCR5B: Clock Select Bits}
@@ -438,105 +445,83 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 		\end{itemize}
 	\end{center}
 \end{frame}
-\begin{frame}
-	\frametitle{PWM Mode selection}
-	\begin{itemize}
-		\item <+-|alert@+> Component frequency = $\dfrac{f_{clk_{I/O}}} {N\ x\ prescaler} ..............equation(1)$	
-	    \item <+-|alert@+> Here the component is DC motor whose frequency is 1000Hz
-		\item <+-|alert@+> $Clock frequency(f_{clk_{I/O}})  = 14745600Hz$
-		
-		\item <+-|alert@+> Since we are using PWM in 8 bit mode N = $2^8 $= 256
-		
-		\item <+-|alert@+> Putting all the above values in equation (1), we get
-		
-		\item <+-|alert@+> 1000 =
-		$\dfrac{14745600}{2^8\ x\ prescaler}$
-		
-		\item  <+-|alert@+>  1000 = $\dfrac{14745600}{256\ x\ prescaler}$
-		
-		\item <+-|alert@+> prescaler = $\dfrac{14745600}{256\ x\ 1000}$
-		\item <+-|alert@+> prescaler = 57.6
-		
-		\item <+-|alert@+> Closest value to 57.6 is 64. So, we chose 64 as a prescaler value in 8-bit Fast PWM mode.
-		
-	\end{itemize}
-\end{frame}
+%\begin{frame}
+%	\frametitle{PWM Mode selection}
+%	\begin{itemize}
+%		\item <+-|alert@+> Component frequency = $\dfrac{f_{clk_{I/O}}} {N\ x\ prescaler} ..............equation(1)$	
+%	    \item <+-|alert@+> Here the component is DC motor whose frequency is 1000Hz
+%		\item <+-|alert@+> $Clock frequency(f_{clk_{I/O}})  = 14745600Hz$
+%		
+%		\item <+-|alert@+> Since we are using PWM in 8 bit mode N = $2^8 $= 256
+%		
+%		\item <+-|alert@+> Putting all the above values in equation (1), we get
+%		
+%		\item <+-|alert@+> 1000 =
+%		$\dfrac{14745600}{2^8\ x\ prescaler}$
+%		
+%		\item  <+-|alert@+>  1000 = $\dfrac{14745600}{256\ x\ prescaler}$
+%		
+%		\item <+-|alert@+> prescaler = $\dfrac{14745600}{256\ x\ 1000}$
+%		\item <+-|alert@+> prescaler = 57.6
+%		
+%		\item <+-|alert@+> Closest value to 57.6 is 64. So, we chose 64 as a prescaler value in 8-bit Fast PWM mode.
+%		
+%	\end{itemize}
+%\end{frame}
 \section{Summary}
 \begin{frame}
 \frametitle{Summary}
  \begin{itemize}
- 	\item <+-|alert@+> In order to use Fast PWM mode to control dc motors of Firebird V. We have to initialize following registers.
- 	\item
+ 	\item <+-|alert@+> In order to use Fast PWM mode to control the speed of dc motors of Firebird V. We have to initialize following registers with the corresponding values:
+ 		\begin{itemize}
+ 	\item[\checkmark]
  	\pause
  	TCNT5H  = 0xFF 
- 	\item
+ 	\item[\checkmark]
  	\pause
  	TCNT5L = 0x00 
-	\item
+	\item[\checkmark]
 	\pause
 	TCCR5A  = 0xA9
-	\item
+	\item[\checkmark]
 	\pause 
 	TCCR5B = 0x0B 
-	\item
+	\item[\checkmark]
 	\pause 
 	OCR5AH = 0x00 
-	\item
+	\item[\checkmark]
 	\pause 
 	OCR5AL = 0xFF
-	\item
+	\item[\checkmark]
 	\pause 
 	OCR5BH = 0x00 
-	\item
+	\item[\checkmark]
 	\pause
 	OCR5BL = 0xFF
+	 \end{itemize}
 	
 \end{itemize}
 \end{frame}
 \section{Program}
 
 %Slide-20
-
-\begin{frame}[shrink = 4,fragile]
-\frametitle{Syntax for C-Program} \pause
-\framesubtitle{PWM Initialization}
-\begin{block}<1->{Port Pin Config}	\pause
-\begin{semiverbatim}
-\scriptsize{
-void motion_pin_config (void) \color{green} //Configure Pins as Output\color{black}
-\{
-
-Port A for motion control and Port L for Velocity Control must be defined Output
-\} }
-\end{semiverbatim}
-\end{block} \pause
-\begin{block}<1->{PWM Initialization}	\pause
-\begin{semiverbatim}
-\scriptsize{
-void timer5_init()	\color{green} //Set Register Values for starting Fast 8-bit PWM  \color{black}
-\{
-TCCR5A =  
-\ \ \	TCCR5B =
-\ \ \	TCNT5H = 0xFF; 
-\ \ \	TCNT5L = 0x00; 
-\ \ \	OCR5AH = 0x00;
-\ \ \ OCR5AL = 0xFF;
-\ \ \	OCR5BH = 0x00;
-\ \ \ OCR5BL = 0xFF;
-\} }
-\end{semiverbatim}
-\end{block} 
-\end{frame}
 %Slide-21
 \begin{frame}[shrink = 2,fragile]
 \frametitle{Syntax for C-Program} \pause
 \framesubtitle{Program}
+\begin{block}<1->{\#include}\pause
+	\begin{semiverbatim}
+		#include <avr/io.h>
+		#include <avr/interrupt.h>
+		#include <util/delay.h>
+	\end{semiverbatim}
+\end{block} \pause
 \begin{block}<1->{Main Program}	\pause
 \begin{semiverbatim}
 \scriptsize{
 int main(void)
 \{
-\ \		init_devices(); 
+\ \		motion_pin_config();
 \ \		forward();
 \ \		while(1)
 \ \		\{
@@ -549,15 +534,45 @@ int main(void)
 }
 \end{semiverbatim}
 \end{block} \pause
+\end{frame}
+\begin{frame}[shrink = 4,fragile]
+	\frametitle{Syntax for C-Program} \pause
+	\framesubtitle{PWM Initialization}
+	\begin{block}<1->{Port Pin Config}	\pause
+		\begin{semiverbatim}
+			\scriptsize{
+				void motion_pin_config (void) \color{red} //Configure Pins as Output\color{black}
+				\{
+				Port A for motion control and Port L for Velocity Control must be defined Output
+				\} }
+		\end{semiverbatim}
+	\end{block} \pause
 \begin{block}<1->{Velocity Function}	\pause
-\begin{semiverbatim}
-\scriptsize{
-void velocity (unsigned char left_motor, unsigned char right_motor)	
-\{
-OCR5AL = (unsigned char)left_motor;
-\ \ \	OCR5BL = (unsigned char)right_motor;
-\}} 
-\end{semiverbatim}
+	\begin{semiverbatim}
+		\scriptsize{
+			void velocity (\color{blue}unsigned char left_motor, \color{green}unsigned char right_motor)	\color{black}
+			\{
+			\ \ \	OCR5AL = (unsigned char)left_motor;
+			\ \ \	OCR5BL = (unsigned char)right_motor;
+			\}} 
+	\end{semiverbatim}
+\end{block} 
+
+\begin{block}<1->{PWM Initialization}	\pause
+	\begin{semiverbatim}
+		\scriptsize{
+			void timer5_init()	\color{red} //Set Register Values for starting Fast 8-bit PWM  \color{black}
+			\{
+			\ \  TCCR5A =  
+			\ \ \	TCCR5B =
+			\ \ \	TCNT5H = 0xFF; 
+			\ \ \	TCNT5L = 0x00; 
+			\ \ \	OCR5AH = 0x00;
+			\ \ \ OCR5AL = 0xFF;
+			\ \ \	OCR5BH = 0x00;
+			\ \ \ OCR5BL = 0xFF;
+			\} }
+	\end{semiverbatim}
 \end{block} 
 \end{frame}
 \begin{frame}

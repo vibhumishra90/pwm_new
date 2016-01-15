@@ -6,7 +6,7 @@
 \beamer@subsectionintoc {2}{1}{Timer/Counter 5(TCNT5)}{35}{0}{2}
 \beamer@subsectionintoc {2}{2}{Output Compare Register 5}{43}{0}{2}
 \beamer@subsectionintoc {2}{3}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{51}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{1}{TCCR5A}{55}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{2}{TCCR5B}{66}{0}{2}
-\beamer@sectionintoc {3}{Summary}{84}{0}{3}
-\beamer@sectionintoc {4}{Program}{94}{0}{4}
+\beamer@subsubsectionintoc {2}{3}{1}{TCCR5A}{51}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{2}{TCCR5B}{62}{0}{2}
+\beamer@sectionintoc {3}{Summary}{68}{0}{3}
+\beamer@sectionintoc {4}{Program}{78}{0}{4}

@@ -1,30 +1,38 @@
 \frametitle{Syntax for C-Program} \pause
-\framesubtitle{Program}
-\begin{block}<1->{Main Program}	\pause
-\begin{semiverbatim}
-\scriptsize{
-int main(void)
-\{
-\ \		init_devices();
-\ \		forward();
-\ \		while(1)
-\ \		\{
-\ \ \ \			velocity(100,100);
-\ \ \ \			_delay_ms(500);
-\ \ \ \			velocity(0,255);
-\ \ \ \			_delay_ms(500);
-\ \		\}
-\}
-}
-\end{semiverbatim}
-\end{block} \pause
+	\framesubtitle{PWM Initialization}
+	\begin{block}<1->{Port Pin Config}	\pause
+		\begin{semiverbatim}
+			\scriptsize{
+				void motion_pin_config (void) \color{red} //Configure Pins as Output\color{black}
+				\{
+				Port A for motion control and Port L for Velocity Control must be defined Output
+				\} }
+		\end{semiverbatim}
+	\end{block} \pause
 \begin{block}<1->{Velocity Function}	\pause
-\begin{semiverbatim}
-\scriptsize{
-void velocity (unsigned char left_motor, unsigned char right_motor)
-\{
-OCR5AL = (unsigned char)left_motor;
-\ \ \	OCR5BL = (unsigned char)right_motor;
-\}}
-\end{semiverbatim}
+	\begin{semiverbatim}
+		\scriptsize{
+			void velocity (\color{blue}unsigned char left_motor, \color{green}unsigned char right_motor)	\color{black}
+			\{
+			\ \ \	OCR5AL = (unsigned char)left_motor;
+			\ \ \	OCR5BL = (unsigned char)right_motor;
+			\}}
+	\end{semiverbatim}
+\end{block}
+
+\begin{block}<1->{PWM Initialization}	\pause
+	\begin{semiverbatim}
+		\scriptsize{
+			void timer5_init()	\color{red} //Set Register Values for starting Fast 8-bit PWM  \color{black}
+			\{
+			\ \  TCCR5A =
+			\ \ \	TCCR5B =
+			\ \ \	TCNT5H = 0xFF;
+			\ \ \	TCNT5L = 0x00;
+			\ \ \	OCR5AH = 0x00;
+			\ \ \ OCR5AL = 0xFF;
+			\ \ \	OCR5BH = 0x00;
+			\ \ \ OCR5BL = 0xFF;
+			\} }
+	\end{semiverbatim}
 \end{block}
