@@ -314,10 +314,12 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 \begin{frame}
 \frametitle{Timer/Counter Control Register (TCCR5A and TCCR5B)}
 \begin{itemize}
-  \item <+-|alert@+> Bits in TCCR5A and TCCR5B registers configure the Timer 5 module for generating PWM
-  \item <+-|alert@+> Each bit in these registers determine the kind of signal to be generated.
-  \item <+-|alert@+> TCCR5A is a control register and is used to set COM bits and WGM bits.
-  \item <+-|alert@+> TCCR5B is also a control register,used to select clock frequency for the Timer 5 and for PWM generation.   
+  \item <+-|alert@+> TCCR5A and TCCR5B are registers with which we can control:
+  \begin{enumerate}
+  \item <+-|alert@+> The output generated upon Compare Match of the timer.
+   \item <+-|alert@+> The type of PWM Signal to be generated.
+   \item <+-|alert@+> The Frequency of the PWM signal.
+   \end{enumerate}
 \end{itemize}
 \end{frame}
 
@@ -349,14 +351,13 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 		\noalign{\hrule height 1pt}		
 \end{tabular}
 		\begin{itemize}
-			\item <+-|alert@+> It has 2 types of bits: Compare output mode bit $\&$\ waveform generation mode bit.
+			\item <+-|alert@+> There are 2 types of bits in TCCR5A: Compare output mode bit $\&$\ waveform generation mode bit.
 			\item <+-|alert@+> Compare Output Mode bits decide the action to be taken when counter(TCNT5) value matches reference value in Output Compare Register(OCR5).
 		\end{itemize}
 \end{frame}
 \begin{frame}
 	\frametitle{Timer/Counter Control Register 5A (TCCR5A) (...contd)}
 	\begin{itemize}
-		\item <+-|alert@+> The Waveform Generation Mode bits are used to generate the type of PWM signal needed.
 		\item <+-|alert@+> In the given table:
 		\begin{enumerate} [$\checkmark$]
 			\item <+-|alert@+> COM5A1 AND COM5A0 bits are used to control the output on left motor. 
@@ -368,20 +369,12 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 \begin{frame}
 \frametitle{TCCR5A: Compare Output Mode Bits}
 \begin{center}
-	\includegraphics[height=4cm, width=10cm]{com_bits}
+	\item <+-|alert@+>\includegraphics[height=4cm, width=10cm]{com_bits}
 \end{center}
-	\begin{enumerate}
-		\item <+-|alert@+> We are using non-inverting mode for PWM generation.
-	\end{enumerate}
-\end{frame}		
-\begin{frame}
-	\frametitle{TCCR5A: Waveform Generation Mode Bits}
-	\centering
-	\includegraphics[height=4.5cm, width=9cm]{wg_bits}
 	\begin{itemize}
-		\item <+-|alert@+> WGM bits determine, type of waveform to be generated. We will be using Fast PWM, 8-bit mode.
+		\item <+-|alert@+> We are using non-inverting mode for PWM generation.
 	\end{itemize}
-\end{frame}
+\end{frame}	
 \begin{frame}
 	\frametitle{Inverting and Non-inverting mode}
 	\centering
@@ -389,6 +382,15 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 	\begin{itemize}
 		\item <+-|alert@+> There are two modes of pwm waveform generation:
 		\item <+-|alert@+> Non-inverting mode and inverting mode 
+	\end{itemize}
+\end{frame}	
+\begin{frame}
+	\frametitle{TCCR5A: Waveform Generation Mode Bits}
+	\centering
+	\includegraphics[height=4.5cm, width=9cm]{wg_bits}
+	\begin{itemize}
+		\item <+-|alert@+> The Waveform Generation Mode bits are used to generate the type of PWM signal needed.
+		\item <+-|alert@+> We will be using Fast PWM, 8-bit mode.
 	\end{itemize}
 \end{frame}
 \subsubsection{TCCR5B}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.10)  15 JAN 2016 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.10)  15 JAN 2016 16:22
 entering extended mode
 **PWM_New.tex
 (PWM_New.tex
@@ -1844,21 +1844,21 @@ Package pdftex.def Info: iitblogo.pdf used on input line 309.
 File: iitblogo.pdf Graphic file (type pdf)
 
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 322.
+Package pdftex.def Info: iitblogo.pdf used on input line 324.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [51
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 322.
+Package pdftex.def Info: iitblogo.pdf used on input line 324.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [52
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 322.
+Package pdftex.def Info: iitblogo.pdf used on input line 324.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [53
 
@@ -1866,464 +1866,476 @@ Package pdftex.def Info: iitblogo.pdf used on input line 322.
 File: iitblogo.pdf Graphic file (type pdf)
 
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 322.
+Package pdftex.def Info: iitblogo.pdf used on input line 324.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [54
 
 ]
-Overfull \hbox (14.33568pt too wide) in paragraph at lines 355--355
+Overfull \hbox (14.33568pt too wide) in paragraph at lines 357--357
 [][] 
  []
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 355.
+Package pdftex.def Info: iitblogo.pdf used on input line 357.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [55
 
 ]
-Overfull \hbox (14.33568pt too wide) in paragraph at lines 355--355
+Overfull \hbox (14.33568pt too wide) in paragraph at lines 357--357
 [][] 
  []
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 355.
+Package pdftex.def Info: iitblogo.pdf used on input line 357.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [56
 
 ]
-Overfull \hbox (14.33568pt too wide) in paragraph at lines 355--355
+Overfull \hbox (14.33568pt too wide) in paragraph at lines 357--357
 [][] 
  []
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 355.
+Package pdftex.def Info: iitblogo.pdf used on input line 357.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [57
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\checkmark $ on input line 367.
+             The label is: $\checkmark $ on input line 368.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 367.
+Package pdftex.def Info: iitblogo.pdf used on input line 368.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [58
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\checkmark $ on input line 367.
+             The label is: $\checkmark $ on input line 368.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 367.
+Package pdftex.def Info: iitblogo.pdf used on input line 368.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [59
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\checkmark $ on input line 367.
+             The label is: $\checkmark $ on input line 368.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 367.
+Package pdftex.def Info: iitblogo.pdf used on input line 368.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [60
 
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is: $\checkmark $ on input line 367.
-
-File: iitblogo.pdf Graphic file (type pdf)
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 367.
-(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [61
-
-] <com_bits.png, id=2098, 886.81313pt x 323.70938pt>
+] <com_bits.png, id=2065, 886.81313pt x 323.70938pt>
 File: com_bits.png Graphic file (type png)
 
 <use com_bits.png>
-Package pdftex.def Info: com_bits.png used on input line 376.
+Package pdftex.def Info: com_bits.png used on input line 377.
 (pdftex.def)             Requested size: 284.53024pt x 113.80873pt.
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 376.
+Package pdftex.def Info: iitblogo.pdf used on input line 377.
+(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
+ [61
+
+ <./com_bits.png>]
+File: com_bits.png Graphic file (type png)
+ <use com_bits.png>
+Package pdftex.def Info: com_bits.png used on input line 377.
+(pdftex.def)             Requested size: 284.53024pt x 113.80873pt.
+File: iitblogo.pdf Graphic file (type pdf)
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 377.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [62
 
- <./com_bits.png>]
-<wg_bits.jpg, id=2133, 886.06032pt x 533.74406pt>
+] <pwm_output.jpg, id=2134, 491.58656pt x 342.5297pt>
+File: pwm_output.jpg Graphic file (type jpg)
+
+<use pwm_output.jpg>
+Package pdftex.def Info: pwm_output.jpg used on input line 386.
+(pdftex.def)             Requested size: 199.16647pt x 128.04063pt.
+File: iitblogo.pdf Graphic file (type pdf)
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 386.
+(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
+ [63
+
+ <./pwm_output.jpg>]
+File: pwm_output.jpg Graphic file (type jpg)
+
+<use pwm_output.jpg>
+Package pdftex.def Info: pwm_output.jpg used on input line 386.
+(pdftex.def)             Requested size: 199.16647pt x 128.04063pt.
+File: iitblogo.pdf Graphic file (type pdf)
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 386.
+(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
+ [64
+
+]
+<wg_bits.jpg, id=2200, 886.06032pt x 533.74406pt>
 File: wg_bits.jpg Graphic file (type jpg)
  <use wg_bits.jpg>
-Package pdftex.def Info: wg_bits.jpg used on input line 384.
+Package pdftex.def Info: wg_bits.jpg used on input line 395.
 (pdftex.def)             Requested size: 256.0721pt x 128.03603pt.
 File: iitblogo.pdf Graphic file (type pdf)
 
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 384.
-(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [63
-
- <./wg_bits.jpg>]
-<pwm_output.jpg, id=2167, 491.58656pt x 342.5297pt>
-File: pwm_output.jpg Graphic file (type jpg)
- <use pwm_output.jpg>
-Package pdftex.def Info: pwm_output.jpg used on input line 393.
-(pdftex.def)             Requested size: 199.16647pt x 128.04063pt.
-File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 393.
-(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [64
-
- <./pwm_output.jpg>]
-File: pwm_output.jpg Graphic file (type jpg)
- <use pwm_output.jpg>
-Package pdftex.def Info: pwm_output.jpg used on input line 393.
-(pdftex.def)             Requested size: 199.16647pt x 128.04063pt.
-File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 393.
+Package pdftex.def Info: iitblogo.pdf used on input line 395.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [65
 
-]
+ <./wg_bits.jpg>]
+File: wg_bits.jpg Graphic file (type jpg)
+ <use wg_bits.jpg>
+Package pdftex.def Info: wg_bits.jpg used on input line 395.
+(pdftex.def)             Requested size: 256.0721pt x 128.03603pt.
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 427.
+Package pdftex.def Info: iitblogo.pdf used on input line 395.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [66
+
+[66
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 427.
+Package pdftex.def Info: iitblogo.pdf used on input line 429.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [67
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 427.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 429.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [68
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 427.
+Package pdftex.def Info: iitblogo.pdf used on input line 429.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [69
+
+[69
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 427.
+Package pdftex.def Info: iitblogo.pdf used on input line 429.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [70
 
 ]
-<cs_bits.jpg, id=2400, 885.3075pt x 325.96782pt>
+File: iitblogo.pdf Graphic file (type pdf)
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 429.
+(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
+ [71
+
+]
+<cs_bits.jpg, id=2435, 885.3075pt x 325.96782pt>
 File: cs_bits.jpg Graphic file (type jpg)
  <use cs_bits.jpg>
-Package pdftex.def Info: cs_bits.jpg used on input line 438.
+Package pdftex.def Info: cs_bits.jpg used on input line 440.
 (pdftex.def)             Requested size: 284.53348pt x 113.8119pt.
 File: iitblogo.pdf Graphic file (type pdf)
 
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 438.
+Package pdftex.def Info: iitblogo.pdf used on input line 440.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [71
+ [72
 
  <./cs_bits.jpg>]
 File: cs_bits.jpg Graphic file (type jpg)
  <use cs_bits.jpg>
-Package pdftex.def Info: cs_bits.jpg used on input line 438.
+Package pdftex.def Info: cs_bits.jpg used on input line 440.
 (pdftex.def)             Requested size: 284.53348pt x 113.8119pt.
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 438.
+Package pdftex.def Info: iitblogo.pdf used on input line 440.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
 
-[72
+[73
 
 ]
 File: cs_bits.jpg Graphic file (type jpg)
  <use cs_bits.jpg>
-Package pdftex.def Info: cs_bits.jpg used on input line 438.
+Package pdftex.def Info: cs_bits.jpg used on input line 440.
 (pdftex.def)             Requested size: 284.53348pt x 113.8119pt.
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 438.
-(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [73
-
-]
-File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+Package pdftex.def Info: iitblogo.pdf used on input line 440.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [74
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [75
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [76
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [77
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [78
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [79
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [80
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [81
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [82
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 461.
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [83
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 463.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [84
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [85
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [86
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [87
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [88
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [89
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [90
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [91
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [92
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 493.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [93
 
-] (PWM_New.vrb)
+]
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 527.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 495.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [94
 
 ] (PWM_New.vrb)
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 527.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 529.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [95
 
 ] (PWM_New.vrb)
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 527.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 529.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [96
 
 ] (PWM_New.vrb)
 File: iitblogo.pdf Graphic file (type pdf)
-
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 527.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 529.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [97
 
 ] (PWM_New.vrb)
 File: iitblogo.pdf Graphic file (type pdf)
- <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 527.
+
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 529.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [98
 
 ] (PWM_New.vrb)
-
-Class beamer Warning: Frame text is shrunk by a factor of 4.40521 percent inste
-ad of 2 percent on input line 560.
-
 File: iitblogo.pdf Graphic file (type pdf)
-<use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 560.
+ <use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 529.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [99
 
 ] (PWM_New.vrb)
 
 Class beamer Warning: Frame text is shrunk by a factor of 4.40521 percent inste
-ad of 2 percent on input line 560.
+ad of 2 percent on input line 562.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 560.
+Package pdftex.def Info: iitblogo.pdf used on input line 562.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [100
 
 ] (PWM_New.vrb)
 
 Class beamer Warning: Frame text is shrunk by a factor of 4.40521 percent inste
-ad of 2 percent on input line 560.
+ad of 2 percent on input line 562.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 560.
+Package pdftex.def Info: iitblogo.pdf used on input line 562.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [101
 
 ] (PWM_New.vrb)
 
 Class beamer Warning: Frame text is shrunk by a factor of 4.40521 percent inste
-ad of 2 percent on input line 560.
+ad of 2 percent on input line 562.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 560.
+Package pdftex.def Info: iitblogo.pdf used on input line 562.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [102
 
 ] (PWM_New.vrb)
 
 Class beamer Warning: Frame text is shrunk by a factor of 4.40521 percent inste
-ad of 2 percent on input line 560.
+ad of 2 percent on input line 562.
 
 File: iitblogo.pdf Graphic file (type pdf)
 <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 560.
+Package pdftex.def Info: iitblogo.pdf used on input line 562.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
  [103
+
+] (PWM_New.vrb)
+
+Class beamer Warning: Frame text is shrunk by a factor of 4.40521 percent inste
+ad of 2 percent on input line 562.
+
+File: iitblogo.pdf Graphic file (type pdf)
+<use iitblogo.pdf>
+Package pdftex.def Info: iitblogo.pdf used on input line 562.
+(pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
+ [104
 
 ]
 File: iitblogo.pdf Graphic file (type pdf)
  <use iitblogo.pdf>
-Package pdftex.def Info: iitblogo.pdf used on input line 565.
+Package pdftex.def Info: iitblogo.pdf used on input line 567.
 (pdftex.def)             Requested size: 29.0044pt x 28.45274pt.
- [104
+ [105
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 568.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 568.
  (PWM_New.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 568.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 568.
 Package rerunfilecheck Info: File `PWM_New.out' has not changed.
 (rerunfilecheck)             Checksum: CC5FA862212318D04F54493706B4F8CE;611.
 
@@ -2331,16 +2343,16 @@ Package rerunfilecheck Info: File `PWM_New.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 568.
  ) 
 Here is how much of TeX's memory you used:
- 22064 strings out of 493673
- 436750 string characters out of 3143959
+ 22066 strings out of 493673
+ 436771 string characters out of 3143959
  502926 words of memory out of 3000000
  24649 multiletter control sequences out of 15000+200000
  13457 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 56i,19n,72p,481b,727s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,19n,72p,481b,853s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTe
@@ -2352,9 +2364,9 @@ s/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on PWM_New.pdf (104 pages, 1638315 bytes).
+Output written on PWM_New.pdf (105 pages, 1646256 bytes).
 PDF statistics:
- 3557 PDF objects out of 3580 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
+ 3590 PDF objects out of 4296 (max. 8388607)
+ 222 named destinations out of 1000 (max. 500000)
  224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
