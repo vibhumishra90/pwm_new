@@ -37,31 +37,33 @@
 \headcommand {\beamer@framepages {58}{61}}
 \headcommand {\slideentry {2}{3}{4}{62/62}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {2}{3}{5}{63/64}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
-\headcommand {\beamer@framepages {63}{64}}
-\headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{65}{TCCR5B}}
-\headcommand {\slideentry {2}{3}{6}{65/69}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
-\headcommand {\beamer@framepages {65}{69}}
-\headcommand {\slideentry {2}{3}{7}{70/72}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
-\headcommand {\beamer@framepages {70}{72}}
-\headcommand {\slideentry {2}{3}{8}{73/82}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
-\headcommand {\beamer@framepages {73}{82}}
-\headcommand {\sectionentry {3}{Summary}{83}{Summary}{0}}
-\headcommand {\beamer@sectionpages {35}{82}}
-\headcommand {\beamer@subsectionpages {51}{82}}
-\headcommand {\slideentry {3}{0}{1}{83/92}{}{0}}
-\headcommand {\beamer@framepages {83}{92}}
-\headcommand {\sectionentry {4}{Program}{93}{Program}{0}}
-\headcommand {\beamer@sectionpages {83}{92}}
-\headcommand {\beamer@subsectionpages {83}{92}}
-\headcommand {\slideentry {4}{0}{1}{93/97}{}{0}}
-\headcommand {\beamer@framepages {93}{97}}
-\headcommand {\slideentry {4}{0}{2}{98/102}{}{0}}
-\headcommand {\beamer@framepages {98}{102}}
-\headcommand {\slideentry {4}{0}{3}{103/103}{}{0}}
-\headcommand {\beamer@framepages {103}{103}}
-\headcommand {\beamer@partpages {1}{103}}
-\headcommand {\beamer@subsectionpages {93}{103}}
-\headcommand {\beamer@sectionpages {93}{103}}
-\headcommand {\beamer@documentpages {103}}
-\headcommand {\def \inserttotalframenumber {21}}
+\headcommand {\slideentry {2}{3}{5}{63/63}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {2}{3}{6}{64/65}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {64}{65}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{66}{TCCR5B}}
+\headcommand {\slideentry {2}{3}{7}{66/70}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {66}{70}}
+\headcommand {\slideentry {2}{3}{8}{71/73}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {71}{73}}
+\headcommand {\slideentry {2}{3}{9}{74/83}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {74}{83}}
+\headcommand {\sectionentry {3}{Summary}{84}{Summary}{0}}
+\headcommand {\beamer@sectionpages {35}{83}}
+\headcommand {\beamer@subsectionpages {51}{83}}
+\headcommand {\slideentry {3}{0}{1}{84/93}{}{0}}
+\headcommand {\beamer@framepages {84}{93}}
+\headcommand {\sectionentry {4}{Program}{94}{Program}{0}}
+\headcommand {\beamer@sectionpages {84}{93}}
+\headcommand {\beamer@subsectionpages {84}{93}}
+\headcommand {\slideentry {4}{0}{1}{94/98}{}{0}}
+\headcommand {\beamer@framepages {94}{98}}
+\headcommand {\slideentry {4}{0}{2}{99/103}{}{0}}
+\headcommand {\beamer@framepages {99}{103}}
+\headcommand {\slideentry {4}{0}{3}{104/104}{}{0}}
+\headcommand {\beamer@framepages {104}{104}}
+\headcommand {\beamer@partpages {1}{104}}
+\headcommand {\beamer@subsectionpages {94}{104}}
+\headcommand {\beamer@sectionpages {94}{104}}
+\headcommand {\beamer@documentpages {104}}
+\headcommand {\def \inserttotalframenumber {22}}

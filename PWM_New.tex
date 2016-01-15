@@ -379,10 +379,18 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 	\centering
 	\includegraphics[height=4.5cm, width=9cm]{wg_bits}
 	\begin{itemize}
-		\item <+-|alert@+> WGM bits determine, type of waveform to be generated. We will be using Fast PWM, 8-bit. 
-		\item <+-|alert@+> In this table, there are 16 options to select from, for which we require 4 WGM bits. However, there are only 2 WGM bits (WGM1 and WGM0) present in TCCR5A. The other two (WGM3 and WGM2) are present in TCCR5B.
-			\end{itemize}
-     \end{frame}
+		\item <+-|alert@+> WGM bits determine, type of waveform to be generated. We will be using Fast PWM, 8-bit mode.
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{Inverting and Non-inverting mode}
+	\centering
+	\includegraphics[height = 4.5cm, width = 7cm]{pwm_output}
+	\begin{itemize}
+		\item <+-|alert@+> There are two modes of pwm waveform generation:
+		\item <+-|alert@+> Non-inverting mode and inverting mode 
+	\end{itemize}
+\end{frame}
 \subsubsection{TCCR5B}
 \begin{frame}
 	\frametitle{Timer/Counter Control Register 5B (TCCR5B)}
@@ -412,9 +420,9 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 		\begin{itemize}
 			\item In the above Table:
 			\pause
+			\item <+-|alert@+> Input Capture Noise Canceller and Input Capture Edge Select bits are not being used here. 
 			\item <+-|alert@+>WGM bits (WGM52 and WGM53),  are used for PWM generation.
 			\item <+-|alert@+> CS52, CS51, CS50 (Clock select) bits are used to select a frequency at which timer/counter Register will increment its value. 
-			\item <+-|alert@+> The remaining bits, Input Capture Noise Canceller and Input Capture Edge Select will not be used in Fast PWM mode. 
 		\end{itemize}
 \end{frame}
 \begin{frame}
@@ -551,9 +559,8 @@ OCR5AL = (unsigned char)left_motor;
 \end{block} 
 \end{frame}
 \begin{frame}
-	\centering	
-	\hskip4cm
-	\textbf{\LARGE Thank You!} \\[20pt]
-	\hskip3cm
+	\centering
+	\vspace{2cm}	
+	\textbf{\Huge Thank You!} \\[60pt]
 \end{frame}
 \end{document}
