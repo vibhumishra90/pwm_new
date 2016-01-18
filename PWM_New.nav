@@ -38,26 +38,26 @@
 \headcommand {\slideentry {2}{3}{4}{56/57}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
 \headcommand {\beamer@framepages {56}{57}}
 \headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{58}{TCCR5B}}
-\headcommand {\slideentry {2}{3}{5}{58/60}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
-\headcommand {\beamer@framepages {58}{60}}
-\headcommand {\slideentry {2}{3}{6}{61/63}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
-\headcommand {\beamer@framepages {61}{63}}
-\headcommand {\sectionentry {3}{Summary}{64}{Summary}{0}}
-\headcommand {\beamer@sectionpages {35}{63}}
-\headcommand {\beamer@subsectionpages {51}{63}}
-\headcommand {\slideentry {3}{0}{1}{64/73}{}{0}}
-\headcommand {\beamer@framepages {64}{73}}
-\headcommand {\sectionentry {4}{Program}{74}{Program}{0}}
-\headcommand {\beamer@sectionpages {64}{73}}
-\headcommand {\beamer@subsectionpages {64}{73}}
-\headcommand {\slideentry {4}{0}{1}{74/79}{}{0}}
-\headcommand {\beamer@framepages {74}{79}}
-\headcommand {\slideentry {4}{0}{2}{80/85}{}{0}}
-\headcommand {\beamer@framepages {80}{85}}
-\headcommand {\slideentry {4}{0}{3}{86/86}{}{0}}
-\headcommand {\beamer@framepages {86}{86}}
-\headcommand {\beamer@partpages {1}{86}}
-\headcommand {\beamer@subsectionpages {74}{86}}
-\headcommand {\beamer@sectionpages {74}{86}}
-\headcommand {\beamer@documentpages {86}}
+\headcommand {\slideentry {2}{3}{5}{58/61}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {58}{61}}
+\headcommand {\slideentry {2}{3}{6}{62/64}{Timer/Counter Control Register (TCCR5A and TCCR5B)}{0}}
+\headcommand {\beamer@framepages {62}{64}}
+\headcommand {\sectionentry {3}{Summary}{65}{Summary}{0}}
+\headcommand {\beamer@sectionpages {35}{64}}
+\headcommand {\beamer@subsectionpages {51}{64}}
+\headcommand {\slideentry {3}{0}{1}{65/74}{}{0}}
+\headcommand {\beamer@framepages {65}{74}}
+\headcommand {\sectionentry {4}{Program}{75}{Program}{0}}
+\headcommand {\beamer@sectionpages {65}{74}}
+\headcommand {\beamer@subsectionpages {65}{74}}
+\headcommand {\slideentry {4}{0}{1}{75/80}{}{0}}
+\headcommand {\beamer@framepages {75}{80}}
+\headcommand {\slideentry {4}{0}{2}{81/86}{}{0}}
+\headcommand {\beamer@framepages {81}{86}}
+\headcommand {\slideentry {4}{0}{3}{87/87}{}{0}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\beamer@partpages {1}{87}}
+\headcommand {\beamer@subsectionpages {75}{87}}
+\headcommand {\beamer@sectionpages {75}{87}}
+\headcommand {\beamer@documentpages {87}}
 \headcommand {\def \inserttotalframenumber {19}}
