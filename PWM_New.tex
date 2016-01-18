@@ -357,14 +357,9 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 \end{frame}
 \begin{frame}
 	\frametitle{Timer/Counter Control Register 5A (TCCR5A) (...contd)}
-	\begin{itemize}
-		\item <+-|alert@+> In the given table:
-		\begin{itemize} [$\checkmark$]
-			\item <+-|alert@+> COM5A1 and COM5A0 bits are used to control the output on left motor. 
-			\item <+-|alert@+> COM5B1 and COM5B0 bits are used to control the output on right motor.
-	\end{itemize}\pause
+	\begin{center}
 	\includegraphics[height=4cm, width=10cm]{com_bits}
-\end{itemize}
+    \end{center}
 	\begin{itemize}
 		\item <+-|alert@+> We are using non-inverting mode for PWM generation.
 	\end{itemize}
@@ -429,7 +424,7 @@ IIT Bombay \\ {\today}	%\today picks system date on title slide
 			%\item <+-|alert@+> Input Capture Noise Canceller and Input Capture Edge Select bits are not being used here. 
 			\item <+-|alert@+>WGM bits (WGM52 and WGM53),  are used for selecting mode of PWM generation.
 			 \begin{itemize} 
-			 	\item Note: WGM50 and WGM51 bits also used along with these bit are in TCCR5A register.
+			 	\item Note: WGM50 and WGM51 bits also used along with these bits are in TCCR5A register.
 			 \end{itemize}
 			\item <+-|alert@+> CS52, CS51, CS50 (Clock select) bits are used to select a frequency at which timer/counter Register will increment its value.
 			\end{itemize}
